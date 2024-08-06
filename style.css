@@ -47,7 +47,6 @@ ul{
 ul li{
   margin-block: 1rem;
   border-radius: .2rem;
-  overflow: hidden;
 }
 ul li a{
   background: var(--socials-bg-clr);
@@ -55,6 +54,7 @@ ul li a{
   display: block;
   padding-block: .5em;
   color: var(--txt-clr);
+  border-radius: .2rem;
   transition: background .5s color .5s;
 }
 a:hover,
